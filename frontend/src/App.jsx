@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { IoIosSend } from "react-icons/io";
 import ThemeToggle from './ThemeToggle';
 import { useEffect, useState } from 'react';
@@ -35,15 +36,15 @@ export default function App() {
       )}
       <div
         className="absolute inset-0 bg-cover bg-center -z-10 bg-no-repeat"
-        style={{ backgroundImage: "url('https://assetmonk.com/wp-content/uploads/shutterstock_654767857-min.jpg')" }}
+        style={{ backgroundImage: "url('/background.jpg')" }}
       ></div>
 
       <div className="min-h-screen backdrop-blur-sm bg-white/25 text-[#1a1a1a] z-10">
         {/* Header */}
         <div className="flex justify-between items-center p-4">
           <div onClick={handleNewChat} className="flex items-center space-x-2 text-xl font-bold cursor-pointer bg-white/70 px-4 hover:shadow shadow-gray-400 hover:bg-white py-1.5 absolute top-4 rounded-full ">
-            <FaEdit color="" />
-            <span>New</span>
+            <FaEdit color="#2c2c2c" />
+            <span className="text-gray-800">New</span>
           </div>
           <div className="flex items-center space-x-4">
             {/* <HiBell className="w-5 h-5 text-gray-600" />
