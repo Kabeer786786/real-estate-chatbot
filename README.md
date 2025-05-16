@@ -21,9 +21,9 @@ An intelligent AI-powered real estate chatbot built to assist users in finding t
 
 - **Frontend:** React.js + Tailwind CSS
 - **Backend:** Node.js or Flask (depending on integration)
-- **AI/NLP Model:** Custom-trained chatbot on real estate data
+- **AI/NLP Model:** Custom-trained chatbot on real estate data, Implementing RAG, Agentic AI.
 - **Hosting:** Vercel / Netlify (Frontend), Render / Hostinger (Backend)
-- **Optional:** MongoDB for user session and data logging
+- **Optional:** FAISS, MongoDB for user session and data logging
 
 ---
 
